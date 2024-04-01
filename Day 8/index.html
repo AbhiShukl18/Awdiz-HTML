@@ -1,0 +1,81 @@
+<!DOCTYPE html>
+<html>
+    <head>
+        <title></title>
+        <style>
+            #text:valid{
+
+                background-color: green;
+            }
+            #text:invalid{
+
+                background-color: red;
+            }
+            /* #pass:valid{
+
+                background-color: green;
+            
+            }
+            #pass:invalid{
+
+                background-color: red;
+            } */
+        </style>
+    </head>
+    <body>
+        <h3>-------Fieldset and LEGEND-------------</h3>
+        <form action="">
+            <fieldset>
+                <legend>SIGN-IN</legend>
+                <label for="email">Email</label><br>
+                <input type="email" name="email" id="email"/><br>
+                <label for="pass">Password</label><br>
+                <input type="password" name="pass" id="pass"/>
+                <input type="submit"/>
+            </fieldset>
+        <h3>-----------Value Attribute-------------</h3>
+            <input type="Submit" value="LOG IN"/>
+            <input type="text" Value="Type from here"/>
+            <input type="range"/><br>
+            <input type="radio" value="ABC"/>ABC<br>
+            <input type="radio" value="XYZ"/>XYZ<br>
+        
+            <input type="text" value="Abhi" readonly/>---------Readonly attribute------<br>
+            
+            <input type="text" value="Abhii" disabled/>---------Disable attribute------<br/>
+
+            <input maxlength="5">  -----------Maxlength Attribute-------------   <br>
+
+            <input type="number" max="100" min="10"/>  
+            <input type="Submit"/>-----------Max-Min Attribute-------------<br>
+            <h3>-------------Pattern----------</h3>
+            <input id="text" type="text" pattern="\w{3,6}" required/><br>
+            <input id="text" type="password" pattern="\w{4,4}" required/><br>
+            <input disabled type="submit"/><br>
+            <h3>--------Autofocus----------</h3>
+            <input type="text" autofocus/>
+            <input type="text" name="" id="">
+            <input type="text" name="" id="">
+            <input type="text" name="" id=""><br>
+            <h3>-------------Tooltip- Title attribute------------</h3>
+            <span title="Well Done"> Heyyy!! this is an example of Title attribute</span>
+        </form>
+        <h3>---------Action Attribute-------------</h3>
+        <form action="">
+            <label for="">Email</label><br>
+            <input type="email" name="" id=""/><br>
+            <label for="">Password</label><br>
+            <input type="password" name="" id=""><br>
+            <input type="submit" name="" id="">
+        </form>
+<h3>----------Canvas--------</h3>
+        <canvas id="myCanvas" width="200" height="100" style="border:1px solid #000000;">
+        </canvas>
+        <h3>---------SVG----------</h3>
+        <svg width="100" height="100">
+            <circle cx="50" cy="50" r="40" stroke="black" stroke-width="1" fill="yellow" />
+            
+          </svg>   
+               
+    </body>
+</html>
