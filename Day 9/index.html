@@ -1,0 +1,67 @@
+<!DOCTYPE html>
+<html>
+    <head>
+        <title>Day 9</title>
+        <link rel="stylesheet" href="./index.css"/>
+        <link rel="icon" href="./Media/yikA6Ep6T.jpg">
+        <style>
+            *{
+                font-family: Arial, Helvetica, sans-serif;
+                color: blue;
+                padding: 1;
+                margin: 1;
+                text-align: Center;
+                box-sizing: border-box;
+            }
+            #myId{
+                color: red;
+            }
+            .myClass{
+                color: brown;
+                
+            }
+            p.myClass{
+                color:darkgreen;
+                font-size:xx-large ;
+                
+            }
+            span.myClass{
+                color: black;
+                font-size: xx-large;
+            }
+            div{
+                color: fuchsia;
+                font-size: xx-large;
+            }
+        </style>
+    </head>
+    <body>
+        <h3>----Media Tags------</h3>
+
+        <img src="./Media/yikA6Ep6T.jpg" alt="tomjerry"/>
+        <video controls autoplay muted>
+          <source  src="./Media/istockphoto-1456460315-640_adpp_is.mp4" />
+        </video>
+
+        <audio controls>
+            <source src="./Media/lion-roar-6011.mp3" type="audio/mpeg"/>
+        </audio>
+
+        <!-- <audio src="./Media/lion-roar-6011.mp3" controls></audio> -->
+        <iframe src="https://www.youtube.com/embed/EbbQYXnkxto?si=6folJk5ZD7ukZyAm" frameborder="0" height="300px" width="300px">
+            
+        </iframe>
+    </body>
+    
+    <h1 id="myId">Testing Id</h1>
+    <h1 class="myClass">Testing Class</h1>
+    <p class="myClass">Testing p.class</p>
+    <span class="myClass">Tesing Span.myclass</span>
+    <div>Divison</div>  
+<p class="awdiz">Testing External StyleSheet</p>
+
+<h1 class="myClass" id="myId" style="color: rgb(107, 6, 78);">Tesing Priority of Class, id and *Inline CSS*</h1>
+<h1 id="myId" class="myClass"; ">Tesing Priority of Class, *ID*</h1>
+<!-- <h1 class="awdiz" id="myId" style="color: rgb(34, 182, 95);">Tesing Priority of External CSS, Internal CSS and *Inline CSS*</h1> -->
+<div style="background-color: red; color: white; border: 1px solid black;">Testing Background Color</div>
+</html> 
