@@ -1,0 +1,178 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Day 14</title>
+    <style>
+        .parentclass{
+
+            width: 100%;
+            /* height: 200px; */
+            /* border: 2px solid black; */
+            display: flex;
+            justify-content: space-between;
+            text-align: center;
+            font-size: 100px;
+            flex-wrap: wrap;
+        }
+        .childclass{
+
+            width: 19%;
+            border: 2px solid red;
+            margin-bottom: 20px;
+            height: 200px;
+        }
+        .relative{
+
+            width: 100%;
+            /* border: 2px solid black; */
+            display: flex;
+            font-size: 100px;
+            justify-content: space-around;
+            height: 1000px;
+
+
+        }
+        .relativechild{
+
+            border: 2px solid red;
+            width: 30%;
+            height: 300px;
+            background-color:yellow;
+        }
+        .absolute{
+
+            width: 100%;
+            /* border: 2px solid black; */
+            display: flex;
+            font-size: 100px;
+            justify-content: space-around;
+            height: 1000px;
+
+            }
+            .absolutechild{
+
+                border: 2px solid red;
+                width: 30%;
+                height: 300px;
+                background-color:yellow;
+                
+            }
+            .sticky{
+
+                width: 100%;
+            /* border: 2px solid black; */
+            display: flex;
+            font-size: 100px;
+            justify-content: space-around;
+            height: 2000px;
+
+            }
+
+            .stickychild{
+
+                border: 2px solid red;
+                width: 30%;
+                height: 300px;
+                background-color:yellow;
+            }
+    </style>
+</head>
+<body>
+    <h1>Testing Flex Wrap</h1>
+    <div class="parentclass">
+        <div class="childclass">
+            <img src="https://rukminim2.flixcart.com/image/416/416/xif0q/electric-cycle/l/p/h/kivo-easy-bicycle-with-integrated-back-carrier-pink-18-5-original-imagzfncz4bwyunb.jpeg?q=70&crop=false" alt="cycle"
+            width="100%"
+            height="95%"/>
+        </div>
+        <div class="childclass"> 
+            <img src="https://rukminim2.flixcart.com/image/416/416/xif0q/electric-cycle/l/p/h/kivo-easy-bicycle-with-integrated-back-carrier-pink-18-5-original-imagzfncz4bwyunb.jpeg?q=70&crop=false" alt="cycle"
+            width="100%"
+            height="95%"/>
+        </div>
+        <div class="childclass"> 
+            <img src="https://rukminim2.flixcart.com/image/416/416/xif0q/electric-cycle/l/p/h/kivo-easy-bicycle-with-integrated-back-carrier-pink-18-5-original-imagzfncz4bwyunb.jpeg?q=70&crop=false" alt="cycle"
+            width="100%"
+            height="95%"/>
+        </div>
+        <div class="childclass"> 
+            <img src="https://rukminim2.flixcart.com/image/416/416/xif0q/electric-cycle/l/p/h/kivo-easy-bicycle-with-integrated-back-carrier-pink-18-5-original-imagzfncz4bwyunb.jpeg?q=70&crop=false" alt="cycle"
+            width="100%"
+            height="95%"/>
+        </div>
+        <div class="childclass"> 
+            <img src="https://rukminim2.flixcart.com/image/416/416/xif0q/electric-cycle/l/p/h/kivo-easy-bicycle-with-integrated-back-carrier-pink-18-5-original-imagzfncz4bwyunb.jpeg?q=70&crop=false" alt="cycle"
+            width="100%"
+            height="95%"/>
+        </div>
+        <div class="childclass"> 
+            <img src="https://rukminim2.flixcart.com/image/416/416/xif0q/electric-cycle/l/p/h/kivo-easy-bicycle-with-integrated-back-carrier-pink-18-5-original-imagzfncz4bwyunb.jpeg?q=70&crop=false" alt="cycle"
+            width="100%"
+            height="95%"/>
+        </div>
+        <div class="childclass"> 
+            <img src="https://rukminim2.flixcart.com/image/416/416/xif0q/electric-cycle/l/p/h/kivo-easy-bicycle-with-integrated-back-carrier-pink-18-5-original-imagzfncz4bwyunb.jpeg?q=70&crop=false" alt="cycle"
+            width="100%"
+            height="95%"/>
+        </div>
+        <div class="childclass"> 
+            <img src="https://rukminim2.flixcart.com/image/416/416/xif0q/electric-cycle/l/p/h/kivo-easy-bicycle-with-integrated-back-carrier-pink-18-5-original-imagzfncz4bwyunb.jpeg?q=70&crop=false" alt="cycle"
+            width="100%"
+            height="95%"/>
+        </div>
+        <div class="childclass">
+             <img src="https://rukminim2.flixcart.com/image/416/416/xif0q/electric-cycle/l/p/h/kivo-easy-bicycle-with-integrated-back-carrier-pink-18-5-original-imagzfncz4bwyunb.jpeg?q=70&crop=false" alt="cycle"
+            width="100%"
+            height="95%"/>
+        </div>
+        <div class="childclass"> 
+            <img src="https://rukminim2.flixcart.com/image/416/416/xif0q/electric-cycle/l/p/h/kivo-easy-bicycle-with-integrated-back-carrier-pink-18-5-original-imagzfncz4bwyunb.jpeg?q=70&crop=false" alt="cycle"
+            width="100%"
+            height="95%"/>
+        </div>
+    </div>
+<h1>Testing Positions</h1>
+<h3>Relative Position</h3>
+<div class="relative">
+    <div class="relativechild">1</div>
+    <div 
+    class="relativechild" 
+    style="background-color: red;
+    position: relative;
+    top: 100px;
+    left: 40px; 
+    font-size: 40px;"
+    >Relative- Top-100px left 40px</div>
+    <div class="relativechild">3</div>
+</div>
+
+<h3>Absolute Position</h3>
+<div class="absolute">
+    <div class="absolutechild">1</div>
+    <div 
+    class="absolutechild" 
+    style="background-color: red;
+    position: absolute;
+    top: 1500px;
+    left: 1500px;
+    font-size: 40px;"
+    >Absolute- Top-1500px and left 1500px</div>
+    <div class="absolutechild">3</div>
+</div>
+
+<h3>Sticky Position</h3>
+<div class="sticky">
+    <div class="stickychild">1</div>
+    <div 
+    class="stickychild" 
+    style="background-color: red;
+    position: sticky;
+    top: 40px;
+    font-size: 40px;"
+    >Sticky top 40px</div>
+    <div class="stickychild">3</div>
+</div>
+</body>
+</html>
