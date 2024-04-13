@@ -27,6 +27,9 @@
             display: flex;
             justify-content: space-between;
             align-items: center;
+            position: sticky;
+            top: 0px;
+            left: 0px;
 
         }
         #logo{
@@ -87,13 +90,147 @@
             padding-right: 10px;
         }
         .secondnav{
+            height: 90px;
+            width: 100%;
+            /* border: 2px solid black;     */
+            display: flex;
+            align-items: center;
+            padding-left: 20%;
+            display: flex;
+            
+        }
+        #box{
+
+            height: 70px;
+            width: 70%;
+            border: 2px none;
+            outline: 1px groove lightgray;
+            border-radius: 40px;
+            display: flex;
+            align-items: center;
+            padding-left: 30px;
+            padding-right: 30px;
+            justify-content: space-between;
+            display: flex;
+            }
+            #content{
+
+                display: flex;
+                flex-direction: column;
+            }
+            #search{
+                height: 50px;
+                width: 50px;
+                border: 2px none;
+                outline: 2px lightgray ;
+                border-radius: 50%;
+                display: flex;
+                align-items: center;
+                background-color: #ff385c;
+                padding-left: 15px;
+            }
+            #search i{
+                color: white;
+            }
+            .thirdnav{
+                height: 100px;
+                width: 100%;
+                /* border: 2px solid black; */
+                display: flex;
+                align-items: center;
+                justify-content: space-between;
+                
+            }
+           
+            .captionimages{
+
+                height: 100px;
+                width: 70%;
+                /* border: 2px solid black; */
+                display: flex;
+                flex-direction: column;
+            }
+           #images{
             height: 100px;
             width: 100%;
-            border: 2px solid black;    
+            /* border: 2px solid red; */
+            align-items: center;
             display: flex;
+            justify-content: space-between;
+            padding-left: 40px;
+            /* padding-right: 20px; */
+           }
+           #captions{
+            height: 50px;
+            width: 100%;
+            /* border: 2px solid green; */
+            display: flex;
+            justify-content: space-between;
 
-        }
-        
+           }
+           .nextpart{
+            width: 30%;
+            height: 100px;
+            /* border: 2px solid black; */
+           display: flex;
+           align-items: center;
+           padding-left: 40px;
+           justify-content: space-between;
+
+
+           }
+           #next{
+            height: 30px;
+            width: 30px;
+            border: 2px solid lightgray;
+            border-radius: 60%;
+            display: flex;
+            align-items: center;
+            padding-left: 9px;
+            font-size: 14px;
+           }
+           #filter{
+            height: 50px;
+            width: 105px;
+            border: 2px solid lightgray;
+            display: flex;
+            align-items: center;
+            font-size: 13px;
+            justify-content: space-around;
+            padding-right: 10px;
+            padding-left: 20px;
+            border-radius: 10px;
+
+           }
+
+           #slider{
+            height: 50px;
+            width: 200px;
+            border: 2px solid lightgray;
+            display: flex;
+            align-items: center;
+            font-size: 14px;
+            font-weight: bolder;
+            padding-right: 10px;
+            padding-left: 20px;
+            border-radius: 10px;
+
+           }
+           .fourthnav{
+            width: 100%;
+            /* border: 2px solid black; */
+            display: flex;
+            flex-wrap: wrap;
+            justify-content: space-between;
+            
+           }
+           .photos{
+
+            width: 24%;
+            /* border: 1px groove lightgray; */
+            border-radius: 10px;
+            margin-bottom: 25px;
+           }
     </style>
 </head>
 <body>
@@ -120,22 +257,122 @@
             </div>
         </div>
         <div class="secondnav">
-            <div>
-                1
+            <div id="box">
+            <div id="content">
+                <p style="font-weight: 100px;">Where</p>
+                <p style="opacity: 0.6;">Search destinations</p>
             </div>
-            <div>2</div>
-            <div>3</div>
-            <div>4</div>
-            <div>5</div>
+            <div id="content">
+                <p style="font-weight: 100px;">Check in</p>
+                <p style="opacity: 0.6;">Add dates</p>
+            </div>
+            <div id="content">
+                <p style="font-weight: 100px;">Check out</p>
+                <p style="opacity: 0.6;">Add dates</p>
+            </div>
+            <div>
+                
+                <p style="font-weight: 100px;">Who</p>
+                <p style="opacity: 0.6;">Add guests</p>
+            </div>
+            <div id="search">
+               <p><i class="fa-solid fa-magnifying-glass"></i></p>
+            
+            </div>
+        </div>  
         </div>
         <hr>
         <div class="thirdnav">
-            <div>1</div>
-            <div>2</div>
-            <div>3</div>
+            <div class="captionimages"> 
+            <div id="images">
+                <img src="./images/pools.jpg" alt="pools" width="25px">
+                <img src="./images/islands.jpg" alt="islands" width="25px">
+                <img src="./images/parks.jpg" alt="parks" width="25px">
+                <img src="./images/rooms.jpg" alt="rooms" width="25px">
+                <img src="./images/Castles.jpg" alt="Castles" width="25px">
+                <img src="./images/camper.jpg" alt="camper" width="25px">
+                <img src="./images/omg.jpg" alt="omg" width="25px">
+                <img src="./images/arctic.jpg" alt="arctic" width="25px">
+                <img src="./images/amazing.jpg" alt="amazing" width="25px">
+                <img src="./images/design.jpg" alt="design" width="25px">
+            </div>
+            <div id="captions">
+                <p>Amazing pools</p>
+                <p>Islands</p>
+                <p>National parks</p>
+                <p>Rooms</p>
+                <p>Castles</p>
+                <p>Camper vans</p>
+                <p>OMG!</p>
+                <p style="padding-left: aut;">Arctic</p>
+                <p>Amazing views</p>
+                <p>Design</p>
+            </div>
         </div>
+            <div class="nextpart">
+                <div id="next">
+                  <p> <i class="fa-solid fa-chevron-right"></i></p> 
+                </div>
+                <div id="filter">
+                 <img src="https://t3.ftcdn.net/jpg/03/20/78/84/360_F_320788475_nEiLVViOBewea7taZWqNUR0lJAMTAaSo.jpg" alt="filter" width="33%">
+                    <b><p>Filters</p></b>
+                </div>
+                <div id="slider">
+                       <p>Display total before taxes</p>
+                   </div>
+            </div>
+            
+        </div>
+        <hr>
         <div class="fourthnav">
+            <div class="photos">
+                <img src="https://a0.muscache.com/im/pictures/miso/Hosting-777908525036300828/original/8b0f4942-ab59-4286-9961-d30b5e120345.jpeg?im_w=720" alt="city" width="100%">
+                <figcaption>
+                    <p>Vadholi, India</p>
+                    <p>998 Kilometeres away</p>
+                    <p>15-20 Apr</p>
+                    <p>₹12,861 night</p>
+                </figcaption>
+            </div>
 
+            <div class="photos">
+                <img src="https://a0.muscache.com/im/pictures/miso/Hosting-45942402/original/c2edd936-c82f-4c34-b9c2-0d2b2daa465c.jpeg?im_w=720" alt="city" width="100%">
+                <figcaption>
+                    <p>Gurugram, India</p>
+                    <p>393 Kilometeres away</p>
+                    <p>14-19 Apr</p>
+                    <p>₹31,953 night</p>
+                </figcaption>
+            </div>
+            <div class="photos">
+                <img src="https://a0.muscache.com/im/pictures/miso/Hosting-948238209740182923/original/45fd0d30-d2b8-4028-b7d5-646397898b12.jpeg?im_w=720" alt="city" width="100%">
+                <figcaption>
+                    <p>Neota, India</p>
+                    <p>465 Kilometeres away</p>
+                    <p>14-19 Apr</p>
+                    <p>₹10,800 night</p>
+                </figcaption>
+            </div>
+            <div class="photos">
+                <img src="https://a0.muscache.com/im/pictures/miso/Hosting-988223878398035237/original/c4797dab-fae4-44e2-af3e-081201ec0083.jpeg?im_w=720" alt="city" width="100%">
+                <p>Sohna, India</p>
+                <p>371 Kilometeres away</p>
+                <p>14-19 Apr</p>
+                <p>₹45,461 night</p>
+            </figcaption>
+            </div>
+            <div class="photos">
+                <img src="https://a0.muscache.com/im/pictures/599e3a00-33f1-4c22-982d-14c16fb26698.jpg?im_w=720" alt="city" width="100%">
+            </div>
+            <div class="photos">
+                <img src="https://a0.muscache.com/im/pictures/miso/Hosting-973612202639577969/original/b537c57b-300e-4c31-b610-b193b06ea7b1.jpeg?im_w=720" alt="city" width="100%">
+            </div>
+            <div class="photos">
+                <img src="https://a0.muscache.com/im/pictures/miso/Hosting-981606185712826397/original/33bb7a2a-5ff8-4a0c-82e9-6da39b83f21d.jpeg?im_w=720" alt="city" width="100%">
+            </div>
+            <div class="photos">
+                <img src="https://a0.muscache.com/im/pictures/miso/Hosting-991850691094522333/original/e2b1abaa-9d17-4d0e-930a-91130b84d56e.jpeg?im_w=720" alt="city" width="100%">
+            </div>
         </div>
     </div>
 </body>
