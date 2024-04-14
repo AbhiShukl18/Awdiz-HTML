@@ -24,12 +24,14 @@
             height: 80px;
             width: 100%;
             /* border: 2px solid black; */
+            position: sticky;
+            top: 0;
+            left: 0;
             display: flex;
             justify-content: space-between;
             align-items: center;
-            position: sticky;
-            top: 0px;
-            left: 0px;
+            background-color: white;
+            
 
         }
         #logo{
@@ -98,7 +100,7 @@
             padding-left: 20%;
             display: flex;
             
-        }
+            }
         #box{
 
             height: 70px;
@@ -139,7 +141,8 @@
                 display: flex;
                 align-items: center;
                 justify-content: space-between;
-                
+                background-color: white;
+             
             }
            
             .captionimages{
@@ -148,26 +151,22 @@
                 width: 70%;
                 /* border: 2px solid black; */
                 display: flex;
-                flex-direction: column;
+                /* flex-direction: column; */
+                justify-content: space-between;
+                align-items: center;
+                text-align: center;
             }
-           #images{
-            height: 100px;
-            width: 100%;
-            /* border: 2px solid red; */
-            align-items: center;
-            display: flex;
-            justify-content: space-between;
-            padding-left: 40px;
-            /* padding-right: 20px; */
-           }
-           #captions{
-            height: 50px;
-            width: 100%;
-            /* border: 2px solid green; */
-            display: flex;
-            justify-content: space-between;
-
-           }
+            .captionimages > img{
+                height: 20px;
+                width: 25px;
+                margin-bottom: 2%;
+                /* text-align: center; */
+            }
+            .captionimages > p{
+                font-size: small;
+                text-align: center;
+                margin-bottom: 10%;
+            }
            .nextpart{
             width: 30%;
             height: 100px;
@@ -218,19 +217,33 @@
            }
            .fourthnav{
             width: 100%;
+            /* height: 2000px; */
             /* border: 2px solid black; */
             display: flex;
             flex-wrap: wrap;
             justify-content: space-between;
-            
+            margin-top: 20px;
+            background-color: white;
            }
            .photos{
 
             width: 24%;
             /* border: 1px groove lightgray; */
-            border-radius: 10px;
+            border-radius: 40px;
             margin-bottom: 25px;
            }
+           .photos>img{
+
+                border-radius: 10px;
+           }
+           .photos>figcaption >p:nth-child(1), p:nth-child(4){
+                font-weight: 600;
+             
+           }
+           .photos>figcaption >p:nth-child(2), p:nth-child(3){
+                opacity: 0.7;
+           }
+           
     </style>
 </head>
 <body>
@@ -284,29 +297,54 @@
         <hr>
         <div class="thirdnav">
             <div class="captionimages"> 
-            <div id="images">
-                <img src="./images/pools.jpg" alt="pools" width="25px">
-                <img src="./images/islands.jpg" alt="islands" width="25px">
-                <img src="./images/parks.jpg" alt="parks" width="25px">
-                <img src="./images/rooms.jpg" alt="rooms" width="25px">
-                <img src="./images/Castles.jpg" alt="Castles" width="25px">
-                <img src="./images/camper.jpg" alt="camper" width="25px">
-                <img src="./images/omg.jpg" alt="omg" width="25px">
-                <img src="./images/arctic.jpg" alt="arctic" width="25px">
-                <img src="./images/amazing.jpg" alt="amazing" width="25px">
-                <img src="./images/design.jpg" alt="design" width="25px">
+            <div>
+                <img src="./images/pools.jpg" alt="pools" width="25%">
+                <p>Amazing Pools</p>
             </div>
-            <div id="captions">
-                <p>Amazing pools</p>
+            <div>
+                <img src="./images/islands.jpg" alt="islnds" width="25%">
                 <p>Islands</p>
+
+            </div>
+            <div>
+                <img src="./images/parks.jpg" alt="parks" width="25%">
                 <p>National parks</p>
+
+            </div>
+            <div>
+                <img src="./images/rooms.jpg" alt="rooms" width="25%">
                 <p>Rooms</p>
+
+            </div>
+            <div>
+                <img src="./images/Castles.jpg" alt="castles" width="25%">
                 <p>Castles</p>
+
+            </div>
+            <div>
+                <img src="./images/camper.jpg" alt="Camper" width="25%">
                 <p>Camper vans</p>
+
+            </div>
+            <div>
+                <img src="./images/omg.jpg" alt="omg" width="25%">
                 <p>OMG!</p>
-                <p style="padding-left: aut;">Arctic</p>
-                <p>Amazing views</p>
+
+            </div>
+            <div>
+                <img src="./images/arctic.jpg" alt="arctic" width="25%">
+                <p>Arctic</p>
+
+            </div>
+            <div>
+                <img src="./images/amazing.jpg" alt="amazing" width="25%">
+                <p>Amazing Views</p>
+
+            </div>
+            <div>
+                <img src="./images/design.jpg" alt="design" width="25%">
                 <p>Design</p>
+
             </div>
         </div>
             <div class="nextpart">
@@ -323,7 +361,6 @@
             </div>
             
         </div>
-        <hr>
         <div class="fourthnav">
             <div class="photos">
                 <img src="https://a0.muscache.com/im/pictures/miso/Hosting-777908525036300828/original/8b0f4942-ab59-4286-9961-d30b5e120345.jpeg?im_w=720" alt="city" width="100%">
@@ -355,23 +392,77 @@
             </div>
             <div class="photos">
                 <img src="https://a0.muscache.com/im/pictures/miso/Hosting-988223878398035237/original/c4797dab-fae4-44e2-af3e-081201ec0083.jpeg?im_w=720" alt="city" width="100%">
-                <p>Sohna, India</p>
+               
+               <figcaption> <p>Sohna, India</p>
                 <p>371 Kilometeres away</p>
                 <p>14-19 Apr</p>
                 <p>₹45,461 night</p>
             </figcaption>
             </div>
             <div class="photos">
-                <img src="https://a0.muscache.com/im/pictures/599e3a00-33f1-4c22-982d-14c16fb26698.jpg?im_w=720" alt="city" width="100%">
+                <img src="https://a0.muscache.com/im/pictures/599e3a00-33f1-4c22-982d-14c16fb26698.jpg?im_w=720" alt="city" width="100%"  height="74%">
+                <figcaption> <p>Raiseena, India</p>
+                    <p>398 Kilometeres away</p>
+                    <p>14-19 Apr</p>
+                    <p>₹23,961 night</p>
+                </figcaption>
             </div>
             <div class="photos">
-                <img src="https://a0.muscache.com/im/pictures/miso/Hosting-973612202639577969/original/b537c57b-300e-4c31-b610-b193b06ea7b1.jpeg?im_w=720" alt="city" width="100%">
+                <img src="https://a0.muscache.com/im/pictures/miso/Hosting-973612202639577969/original/b537c57b-300e-4c31-b610-b193b06ea7b1.jpeg?im_w=720" alt="city" width="100%" height="74%">
+                <figcaption> <p>Raiseena, India</p>
+                    <p>398 Kilometeres away</p>
+                    <p>14-19 Apr</p>
+                    <p>₹23,961 night</p>
+                </figcaption>
             </div>
             <div class="photos">
-                <img src="https://a0.muscache.com/im/pictures/miso/Hosting-981606185712826397/original/33bb7a2a-5ff8-4a0c-82e9-6da39b83f21d.jpeg?im_w=720" alt="city" width="100%">
+                <img src="https://a0.muscache.com/im/pictures/miso/Hosting-981606185712826397/original/33bb7a2a-5ff8-4a0c-82e9-6da39b83f21d.jpeg?im_w=720" alt="city" width="100%" height="74%">
+                <figcaption> <p>Boraj, India</p>
+                    <p>461 Kilometeres away</p>
+                    <p>14-19 Apr</p>
+                    <p>₹3,766 night</p>
+                </figcaption>
             </div>
             <div class="photos">
-                <img src="https://a0.muscache.com/im/pictures/miso/Hosting-991850691094522333/original/e2b1abaa-9d17-4d0e-930a-91130b84d56e.jpeg?im_w=720" alt="city" width="100%">
+                <img src="https://a0.muscache.com/im/pictures/miso/Hosting-991850691094522333/original/e2b1abaa-9d17-4d0e-930a-91130b84d56e.jpeg?im_w=720" alt="city" width="100%" height="74%">
+                <figcaption> <p>Ghamroj, India</p>
+                    <p>382 Kilometeres away</p>
+                    <p>21-26 Apr</p>
+                    <p>₹22,811 night</p>
+                    
+                </figcaption>
+            </div>
+            <div class="photos">
+                <img src="https://a0.muscache.com/im/pictures/miso/Hosting-680428641028251342/original/b0992492-87b1-49de-b7b8-e173b392c07a.jpeg?im_w=720" alt="city" width="100%" height="48%">
+                <figcaption> <p>Jaipur, India</p>
+                    <p>458 Kilometeres away</p>
+                    <p>14-19 Apr</p>
+                    <p>₹1,986 night</p>
+                </figcaption>
+            </div>
+            <div class="photos">
+                <img src="https://a0.muscache.com/im/pictures/10b767a2-e1a8-4a80-b6d7-f864fcc4b08d.jpg?im_w=720" alt="city" width="100%" height="48%">
+                <figcaption> <p>Jaipur, India</p>
+                    <p>458 Kilometeres away</p>
+                    <p>21-26 Apr</p>
+                    <p>₹2,077 night</p>
+                </figcaption>
+            </div>
+            <div class="photos">
+                <img src="https://a0.muscache.com/im/pictures/df4f4ce9-f5ad-4dec-99a0-26942422b687.jpg?im_w=720" alt="city" width="100%" height="48%">
+                <figcaption> <p>Vrindavan, India</p>
+                    <p>293 Kilometeres away</p>
+                    <p>16-21 Apr</p>
+                    <p>₹1,923 night</p>
+                </figcaption>
+            </div>
+            <div class="photos">
+                <img src="https://a0.muscache.com/im/pictures/hosting/Hosting-1132373382286845815/original/de47b383-edfe-462c-a2ed-246f6e841b24.jpeg?im_w=720" alt="city" width="100%" height="48%">
+                <figcaption> <p>Greater Noida, India</p>
+                    <p>355 Kilometeres away</p>
+                    <p>15-20 Apr</p>
+                    <p>₹1,826 night</p>
+                </figcaption>
             </div>
         </div>
     </div>
