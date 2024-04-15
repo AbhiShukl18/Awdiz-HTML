@@ -24,9 +24,9 @@
             height: 80px;
             width: 100%;
             /* border: 2px solid black; */
-            position: sticky;
+            /* position: sticky;
             top: 0;
-            left: 0;
+            left: 0; */
             display: flex;
             justify-content: space-between;
             align-items: center;
@@ -217,33 +217,151 @@
            }
            .fourthnav{
             width: 100%;
-            /* height: 2000px; */
             /* border: 2px solid black; */
             display: flex;
             flex-wrap: wrap;
             justify-content: space-between;
-            margin-top: 20px;
-            background-color: white;
-           }
-           .photos{
-
-            width: 24%;
-            /* border: 1px groove lightgray; */
-            border-radius: 40px;
-            margin-bottom: 25px;
-           }
-           .photos>img{
-
-                border-radius: 10px;
-           }
-           .photos>figcaption >p:nth-child(1), p:nth-child(4){
-                font-weight: 600;
-             
-           }
-           .photos>figcaption >p:nth-child(2), p:nth-child(3){
-                opacity: 0.7;
-           }
            
+           }
+           .body{
+            width: 22%;
+            height: 370px;
+            padding-top: 10px;
+            /* border: 2px solid red; */
+            margin-bottom: 25px;
+
+           }
+           #image{
+            /* border: 2px solid yellow; */
+            width: 100%;
+            height: 270px;
+            border-radius: 15px;
+            background-size: cover;
+            background-image: url(https://a0.muscache.com/im/pictures/miso/Hosting-52086975/original/017465f1-e5b3-43ff-8d92-facd828f8fc2.jpeg?im_w=720);
+
+           }
+           #guest{
+
+            display: flex;
+            justify-content: space-between;
+            padding-right: 20px;
+            padding-left: 18px;
+            padding-top: 12px;
+           }
+          
+           #guest p{
+            width: 125px;
+            height: 24px;
+            /* border: 2px solid black; */
+            outline: 1px solid lightgray;
+            background-color: #ffffff;
+            border-radius: 10px;
+            text-align: center;
+            padding-top: 3px;
+           }
+
+           #guest i{
+
+            color: #5d626e;
+            font-size: 20px;
+            
+           }
+
+           #firstline{
+            margin-top: 10px;
+            font-size: medium;
+            display: flex;
+            justify-content: space-between;
+            font-weight: bold;
+           }
+        #restline p{
+            font-size: medium;
+            opacity: 0.7;
+            
+            
+        }
+        #restline span{
+            font-size: medium;
+            font-weight: bold;
+        }
+
+        #image2{
+            /* border: 2px solid yellow; */
+            width: 100%;
+            height: 270px;
+            border-radius: 15px;
+            background-size: cover;
+            background-image: url(https://a0.muscache.com/im/pictures/miso/Hosting-50545526/original/af14ce0b-481e-41be-88d1-b84758f578e5.jpeg?im_w=720);
+
+           }
+
+           #image3{
+            /* border: 2px solid yellow; */
+            width: 100%;
+            height: 270px;
+            border-radius: 15px;
+            background-size: cover;
+            background-repeat: no-repeat;
+            background-image: url(https://a0.muscache.com/im/pictures/3ada8472-2788-4ded-ba72-88437f5b57d5.jpg?im_w=720);
+
+           }
+
+           #image4{
+            /* border: 2px solid yellow; */
+            width: 100%;
+            height: 270px;
+            border-radius: 15px;
+            background-size: cover;
+            background-image: url(https://a0.muscache.com/im/pictures/miso/Hosting-37911089/original/50668d00-094b-4bc7-afdf-497817167e40.jpeg?im_w=720);
+
+           }
+
+           #image5{
+            /* border: 2px solid yellow; */
+            width: 100%;
+            height: 270px;
+            border-radius: 15px;
+            background-size: cover;
+            background-image: url(https://a0.muscache.com/im/pictures/f41c22fc-9e6e-439d-86d7-25dfb71bd518.jpg?im_w=720);
+
+           }
+
+           #image6{
+            /* border: 2px solid yellow; */
+            width: 100%;
+            height: 270px;
+            border-radius: 15px;
+            background-size: cover;
+            background-image: url(https://a0.muscache.com/im/pictures/miso/Hosting-54025473/original/179f721a-350d-47e0-8d2f-a1519b03a39e.jpeg?im_w=720);
+
+           }
+
+           #image7{
+            /* border: 2px solid yellow; */
+            width: 100%;
+            height: 270px;
+            border-radius: 15px;
+            background-size: cover;
+            background-image: url(https://a0.muscache.com/im/pictures/miso/Hosting-752799920766464111/original/51a89bd6-fedc-46d0-8c61-87d448a37842.jpeg?im_w=720);
+
+           }
+
+           #image8{
+            /* border: 2px solid yellow; */
+            width: 100%;
+            height: 270px;
+            border-radius: 15px;
+            background-size: cover;
+            background-image: url(https://a0.muscache.com/im/pictures/miso/Hosting-949659370756982719/original/d86b80d5-b6da-4481-9cdc-5d21edff5542.jpeg?im_w=720);
+
+           }
+       
+           @media screen and (max-width:600px) {
+                .secondnav{
+                    display: none;
+                }
+           }
+
     </style>
 </head>
 <body>
@@ -362,108 +480,188 @@
             
         </div>
         <div class="fourthnav">
-            <div class="photos">
-                <img src="https://a0.muscache.com/im/pictures/miso/Hosting-777908525036300828/original/8b0f4942-ab59-4286-9961-d30b5e120345.jpeg?im_w=720" alt="city" width="100%">
-                <figcaption>
-                    <p>Vadholi, India</p>
-                    <p>998 Kilometeres away</p>
-                    <p>15-20 Apr</p>
-                    <p>₹12,861 night</p>
-                </figcaption>
+            <div class="body">
+                <div id="image">
+                    <div id="guest">
+                        <p>Guest Favourite</p>
+                        <i class="fa-solid fa-heart"></i>
+                    </div>
+                            
+                </div>
+                <div id="caption">
+                    <div id="firstline">
+                        <p>Coorg, India</p>
+                        <p>★ 4.9</p>
+                    </div>
+                    <div id="restline">
+                        <p>500 Kilometres away</p>
+                        <p>24-29 Apr</p>
+                        <span>₹ 15,000 night</span> 
+                       
+                    </div>
+                </div>
             </div>
-
-            <div class="photos">
-                <img src="https://a0.muscache.com/im/pictures/miso/Hosting-45942402/original/c2edd936-c82f-4c34-b9c2-0d2b2daa465c.jpeg?im_w=720" alt="city" width="100%">
-                <figcaption>
-                    <p>Gurugram, India</p>
-                    <p>393 Kilometeres away</p>
-                    <p>14-19 Apr</p>
-                    <p>₹31,953 night</p>
-                </figcaption>
+            <div class="body">
+                <div id="image2">
+                    <div id="guest">
+                        <p>Guest Favourite</p>
+                        <i class="fa-solid fa-heart"></i>
+                    </div>
+                            
+                </div>
+                <div id="caption">
+                    <div id="firstline">
+                        <p>Shimla, India</p>
+                        <p>★ 4.9</p>
+                    </div>
+                    <div id="restline">
+                        <p>1,112 Kilometres away</p>
+                        <p>24-29 Apr</p>
+                        <span>₹ 11,000 night</span> 
+                        
+                    </div>
+                </div>
             </div>
-            <div class="photos">
-                <img src="https://a0.muscache.com/im/pictures/miso/Hosting-948238209740182923/original/45fd0d30-d2b8-4028-b7d5-646397898b12.jpeg?im_w=720" alt="city" width="100%">
-                <figcaption>
-                    <p>Neota, India</p>
-                    <p>465 Kilometeres away</p>
-                    <p>14-19 Apr</p>
-                    <p>₹10,800 night</p>
-                </figcaption>
+            <div class="body">
+                <div id="image3">
+                    <div id="guest">
+                        <p>Guest Favourite</p>
+                        <i class="fa-solid fa-heart"></i>
+                    </div>
+                            
+                </div>
+                <div id="caption">
+                    <div id="firstline">
+                        <p>Shimla, India</p>
+                        <p>★ 4.9</p>
+                    </div>
+                    <div id="restline">
+                        <p>1,121 Kilometres away</p>
+                        <p>24-29 Apr</p>
+                        <span>₹ 12,000 night</span> 
+                        
+                    </div>
+                </div>
             </div>
-            <div class="photos">
-                <img src="https://a0.muscache.com/im/pictures/miso/Hosting-988223878398035237/original/c4797dab-fae4-44e2-af3e-081201ec0083.jpeg?im_w=720" alt="city" width="100%">
-               
-               <figcaption> <p>Sohna, India</p>
-                <p>371 Kilometeres away</p>
-                <p>14-19 Apr</p>
-                <p>₹45,461 night</p>
-            </figcaption>
+            <div class="body">
+                <div id="image4">
+                    <div id="guest">
+                        <p>Guest Favourite</p>
+                        <i class="fa-solid fa-heart"></i>
+                    </div>
+                            
+                </div>
+                <div id="caption">
+                    <div id="firstline">
+                        <p>Nainital, India</p>
+                        <p>★ 4.9</p>
+                    </div>
+                    <div id="restline">
+                        <p>760 Kilometres away</p>
+                        <p>24-29 Apr</p>
+                        <span>₹ ,000 night</span> 
+                        
+                    </div>
+                </div>
             </div>
-            <div class="photos">
-                <img src="https://a0.muscache.com/im/pictures/599e3a00-33f1-4c22-982d-14c16fb26698.jpg?im_w=720" alt="city" width="100%"  height="74%">
-                <figcaption> <p>Raiseena, India</p>
-                    <p>398 Kilometeres away</p>
-                    <p>14-19 Apr</p>
-                    <p>₹23,961 night</p>
-                </figcaption>
+            <div class="body">
+                <div id="image5">
+                    <div id="guest">
+                        <p>Guest Favourite</p>
+                        <i class="fa-solid fa-heart"></i>
+                    </div>
+                            
+                </div>
+                <div id="caption">
+                    <div id="firstline">
+                        <p>Ladakh, India</p>
+                        <p>★ 4.9</p>
+                    </div>
+                    <div id="restline">
+                        <p>1,911 Kilometres away</p>
+                        <p>24-29 Apr</p>
+                        <span>₹8,000 night</span> 
+                        
+                    </div>
+                </div>
             </div>
-            <div class="photos">
-                <img src="https://a0.muscache.com/im/pictures/miso/Hosting-973612202639577969/original/b537c57b-300e-4c31-b610-b193b06ea7b1.jpeg?im_w=720" alt="city" width="100%" height="74%">
-                <figcaption> <p>Raiseena, India</p>
-                    <p>398 Kilometeres away</p>
-                    <p>14-19 Apr</p>
-                    <p>₹23,961 night</p>
-                </figcaption>
+            <div class="body">
+                <div id="image6">
+                    <div id="guest">
+                        <p>Guest Favourite</p>
+                        <i class="fa-solid fa-heart"></i>
+                    </div>
+                            
+                </div>
+                <div id="caption">
+                    <div id="firstline">
+                        <p>Jammu, India</p>
+                        <p>★ 4.9</p>
+                    </div>
+                    <div id="restline">
+                        <p>1,819 Kilometres away</p>
+                        <p>24-29 Apr</p>
+                        <span>₹9,000 night</span> 
+                        
+                    </div>
+                </div>
             </div>
-            <div class="photos">
-                <img src="https://a0.muscache.com/im/pictures/miso/Hosting-981606185712826397/original/33bb7a2a-5ff8-4a0c-82e9-6da39b83f21d.jpeg?im_w=720" alt="city" width="100%" height="74%">
-                <figcaption> <p>Boraj, India</p>
-                    <p>461 Kilometeres away</p>
-                    <p>14-19 Apr</p>
-                    <p>₹3,766 night</p>
-                </figcaption>
+            <div class="body">
+                <div id="image7">
+                    <div id="guest">
+                        <p>Guest Favourite</p>
+                        <i class="fa-solid fa-heart"></i>
+                    </div>
+                            
+                </div>
+                <div id="caption">
+                    <div id="firstline">
+                        <p>Kanpur, India</p>
+                        <p>★ 4.9</p>
+                    </div>
+                    <div id="restline">
+                        <p>0 Kilometres away</p>
+                        <p>24-29 Apr</p>
+                        <span>₹10,000 night</span> 
+                        
+                    </div>
+                </div>
             </div>
-            <div class="photos">
-                <img src="https://a0.muscache.com/im/pictures/miso/Hosting-991850691094522333/original/e2b1abaa-9d17-4d0e-930a-91130b84d56e.jpeg?im_w=720" alt="city" width="100%" height="74%">
-                <figcaption> <p>Ghamroj, India</p>
-                    <p>382 Kilometeres away</p>
-                    <p>21-26 Apr</p>
-                    <p>₹22,811 night</p>
-                    
-                </figcaption>
+            <div class="body">
+                <div id="image8">
+                    <div id="guest">
+                        <p>Guest Favourite</p>
+                        <i class="fa-solid fa-heart"></i>
+                    </div>
+                            
+                </div>
+                <div id="caption">
+                    <div id="firstline">
+                        <p>Patna, India</p>
+                        <p>★ 4.9</p>
+                    </div>
+                    <div id="restline">
+                        <p>1,099 Kilometres away</p>
+                        <p>24-29 Apr</p>
+                        <span>₹3,400 night</span> 
+                        
+                    </div>
+                </div>
             </div>
-            <div class="photos">
-                <img src="https://a0.muscache.com/im/pictures/miso/Hosting-680428641028251342/original/b0992492-87b1-49de-b7b8-e173b392c07a.jpeg?im_w=720" alt="city" width="100%" height="48%">
-                <figcaption> <p>Jaipur, India</p>
-                    <p>458 Kilometeres away</p>
-                    <p>14-19 Apr</p>
-                    <p>₹1,986 night</p>
-                </figcaption>
+            <div class="body">
+                
             </div>
-            <div class="photos">
-                <img src="https://a0.muscache.com/im/pictures/10b767a2-e1a8-4a80-b6d7-f864fcc4b08d.jpg?im_w=720" alt="city" width="100%" height="48%">
-                <figcaption> <p>Jaipur, India</p>
-                    <p>458 Kilometeres away</p>
-                    <p>21-26 Apr</p>
-                    <p>₹2,077 night</p>
-                </figcaption>
+            <div class="body">
+                
             </div>
-            <div class="photos">
-                <img src="https://a0.muscache.com/im/pictures/df4f4ce9-f5ad-4dec-99a0-26942422b687.jpg?im_w=720" alt="city" width="100%" height="48%">
-                <figcaption> <p>Vrindavan, India</p>
-                    <p>293 Kilometeres away</p>
-                    <p>16-21 Apr</p>
-                    <p>₹1,923 night</p>
-                </figcaption>
+            <div class="body">
+                
             </div>
-            <div class="photos">
-                <img src="https://a0.muscache.com/im/pictures/hosting/Hosting-1132373382286845815/original/de47b383-edfe-462c-a2ed-246f6e841b24.jpeg?im_w=720" alt="city" width="100%" height="48%">
-                <figcaption> <p>Greater Noida, India</p>
-                    <p>355 Kilometeres away</p>
-                    <p>15-20 Apr</p>
-                    <p>₹1,826 night</p>
-                </figcaption>
+            <div class="body">
+                
             </div>
+            </div>
+            
         </div>
     </div>
 </body>
