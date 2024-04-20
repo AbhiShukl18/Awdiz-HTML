@@ -17,6 +17,7 @@ box-sizing: border-box;
 }
 
 .navbar img{
+    padding-left: 150px;
     height: 95px;
     align-items: center;
     padding-bottom: 20px;
