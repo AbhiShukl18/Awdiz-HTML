@@ -42,7 +42,7 @@ box-sizing: border-box;
     height: 900px;
     display: flex;
     background-image: url(./images/stylish-scandinavian-living-room-with-design-mint-sofa-furnitures-mock-up-poster-map-plants-eleg444.jpg);
-
+    background-size: cover;
 }
 
 #firstbox{
@@ -88,4 +88,188 @@ box-sizing: border-box;
     font-size: 50px;
     /* padding-top: 20px; */
     
+}
+    .secondbody{
+
+        width: 100%;
+        height: 1000px;
+        /* border: 2px solid red; */
+        display: flex;
+        justify-content: space-between;
+        padding-top: 50px;
+        padding-left: 200px;
+
+    }
+        #wholepart{
+            /* border: 2px solid pink; */
+            padding-top: 10px;
+            padding-left: 0px;
+            width:90%;
+            display: flex;
+
+        }
+    #firstpart{
+        /* border: 5px solid black; */
+        padding-top: 0px;
+        padding-left: 0px;
+        height: 890px;
+        /* position: relative; */
+
+    }
+
+    #firstimage{
+
+        /* border: 2px solid green; */
+        width: 520px;
+        height: 570px;
+        /* align-items: center; */
+        display: flex;
+        background-image: url(./images/gggg.jpg);
+        background-size: cover;
+        /* position: absolute; */
+        
+    }
+
+    #circle{
+        /* border: 2px solid green; */
+        width: 451px;
+        height: 451px;
+        border-radius: 100%;
+        position: relative;
+        top: 59px;
+        left: 600px;
+        background-image: url(./images/g.jpg);
+        background-size: cover;
+        
+    }
+    #content1{
+        /* border: 2px solid blue;    */
+        width: 520px;
+        height: 320px;
+        margin-top: 20px;
+        /* position: absolute; */
+
+    }
+    #content1 h1{
+        word-wrap: break-word;
+        font-weight: bolder;
+        font-size: 48px;
+        font-family: roboto,'sans-serif';
+        line-height: 1.1;
+    }
+
+    #content1 p{
+        padding-top: 10px;
+        /* word-wrap: break-word; */
+        /* font-weight: 900; */
+        font-size: 23px;
+        font-family: 'Open Sans','Sans-serif';
+        line-height: 1.5;
+    }
+
+    #secondpart{
+        padding-top: 10px;
+        padding-right: 80px;
+        /* border: 2px solid red; */
+        /* display: flex; */
+        padding-top: 10px;
+        padding-left: 0px;
+        /* display: flex; */
+
+    }
+
+    #dots{
+        /* border: 2px solid black; */
+        width: 0%;
+        height: 450px;
+        width: 410px;
+        /* position: absolute; */
+        margin-left: 200px;
+        /* padding-right: 20px; */
+        background-image: url(./images/texture-min.png);
+        /* align-items: center; */
+    }
+#content2{
+
+    /* border: 2px solid black; */
+    margin-left: 70px;
+    margin-top: 130px;
+    width: 510px;
+    height: 320px;
+    font-size: 23px;
+    font-family: 'Open Sans','Sans-serif';
+    line-height: 1.5;
+}
+#content2 button{
+    margin-top: 20px;
+    background-color: white;
+    border: 2px solid #6b7e3c;
+    width: 170px;
+    height: 50px;
+    font-family: 'Open Sans','Sans-serif';
+    font-size: large;
+    font-weight: 700;
+
+}
+
+#content2 button:hover{
+
+    background-color: #6b7e3c;
+    color: white;
+}
+.footer{
+    width: 100%;
+    height: 300px;
+    border: 2px solid black;
+    background-color: #333333;
+    display: flex;
+    justify-content: space-between;
+    color: white;
+    font-family: 'Open Sans',sans-serif;
+    font-size: 16px;
+    margin-top: 40px;
+}
+
+#fsection{
+    /* border: 2px solid yellow; */
+    padding-left: 200px;
+    padding-top: 70px;
+    line-height: 2;
+    
+}
+#logos{
+    /* border: 2px solid yellow; */
+    width: 120px;
+    height: 40px;
+    display: flex;
+    justify-content: space-around;
+    text-align: center;
+    font-size: medium;
+       
+}
+#ssection{
+    /* border: 2px solid yellow; */
+    
+    padding-top: 35px;
+    padding-left: 20px;
+    line-height: 2; 
+    
+}
+
+#tsection{
+    /* border: 2px solid yellow; */
+    
+    padding-top: 35px;
+    padding-left: 20px;
+    line-height: 2;
+    
+}
+
+#csection{
+    /* border: 2px solid yellow; */
+    
+    padding-top: 35px;
+    padding-left: 20px;
+    line-height: 2;
+    padding-right: 150px;
 }
