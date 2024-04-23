@@ -2,7 +2,7 @@
 margin: 0;
 padding: 0;
 box-sizing: border-box;
-
+font-family: Roboto 'Open Sans','Sans-serif'
 }
 .navbar{
     /* border: 2px solid black; */
@@ -13,9 +13,9 @@ box-sizing: border-box;
     background-color: white;
     display: flex;
     justify-content: space-between;
-    position: sticky;
+    /* position: sticky;
     top: 2px;
-    left: 0;
+    left: 0; */
    
 }
 
@@ -227,6 +227,81 @@ box-sizing: border-box;
     background-color: #6b7e3c;
     color: white;
 }
+
+.thirdbody{
+        /* border: 2px solid red; */
+    width: 100%;
+    height: 200px;
+    display: flex;
+    /* justify-content: space-evenly; */
+
+
+}
+
+.thirdbody p:nth-child(1){
+    margin-left: 10%;
+    /* border: 2px solid green; */
+    width: 180px;
+    height: 200px;
+    background-color: #6a7c3e;
+    text-align: center;
+    padding-top: 60px;
+    font-size: 55px;
+    font-weight: 900;
+    color: white;
+    font-family: Montserrat, sans-serif !important;
+
+}
+
+.thirdbody p:nth-child(2){
+    /* border: 2px solid green; */
+    font-family: Roboto, sans-serif;
+    font-size: 50px;
+    font-weight: 550;
+    width: 60%;
+    padding-left: 76px;
+   
+}
+
+.fourthbody{
+    margin-top: 50px;
+    /* border: 2px solid red; */
+    width: 75%;
+    height: 500px;
+    display: flex;
+    justify-content: space-evenly;
+    margin: auto;
+    padding-top: 55px;
+}
+
+#firstpic{
+            /* border: 2px solid blue; */
+            width: 32%;
+            height: 86%;
+            background-image: url(https://assets.nicepagecdn.com/d2cc3eaa/16689/images/5646.jpg);
+            background-size: cover;
+
+}
+
+#secondpic{
+    /* border: 2px solid blue; */
+    width: 32%;
+    height: 86%;
+    background-image: url(https://assets.nicepagecdn.com/d2cc3eaa/16689/images/pexels-cup-of-couple-6633450.jpg);
+    background-size: cover;
+}
+
+#thirdpic{
+
+    /* border: 2px solid blue; */
+    width: 32%;
+    height: 86%;
+    background-image: url(https://assets.nicepagecdn.com/d2cc3eaa/16689/images/56456.jpg);
+    background-size: cover;
+    
+}
+
+
 .footer{
     width: 100%;
     height: 300px;
@@ -282,4 +357,43 @@ box-sizing: border-box;
     padding-left: 20px;
     line-height: 2;
     padding-right: 150px;
+}
+@media screen and (max-width:750px){
+
+    .navbar{
+        border: 2px solid black;
+        /* outline: 1px hidden red; */
+        /* outline-offset: 4px; */
+        width: 100%;
+        height: 95px;
+        background-color: white;
+        display: flex;
+        flex-direction: column;
+        /* justify-content: space-between; */
+        /* position: sticky;
+        top: 2px;
+        left: 0; */
+       
+    }
+
+    .navbar img{
+        /* padding-left: 150px; */
+        height: 55px;
+        align-items: center;
+        padding-bottom: 20px;
+    }
+
+
+    #bars{
+        /* border: 2px solid black; */
+        width: 50%;
+        display: flex;
+        flex-direction: column;
+        justify-content: space-around;
+        align-items: center;
+        /* text-align: center; */
+        padding-right: 200px;
+        padding-left: 400px;
+        font-size: x-large;
+    }
 }
