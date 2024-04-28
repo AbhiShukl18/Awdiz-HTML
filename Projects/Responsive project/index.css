@@ -16,7 +16,9 @@ box-sizing: border-box;
 
     border: 2px solid blue;
     width: 40%;
-    height: 900px;
+    height: 800px;
+    background: url("https://images03.nicepage.com/a1389d7bc73adea1e1c1fb7e/be4268f15125547f891f37c9/pexelsphoto3659861.jpeg");
+        background-size: cover;
     
 }
 #middle{
@@ -48,16 +50,13 @@ box-sizing: border-box;
     padding-right: 200px;
     font-weight: 900;
 }
-#home i{
-    
-    display: none;
-}
 
-@media screen and (max-width:700px) {
+
+@media screen and (max-width:700px) and (min-width: 200px) {
     .firstbody{
         border: 2px solid red;
         width: 100%;
-        height: 1000px;
+        height: 2200px;
         display: flex;
         flex-direction: column;
     }
@@ -65,19 +64,52 @@ box-sizing: border-box;
 
         border: 2px solid blue;
         width: 100%;
-        height: 500px;
-        
+        height: 800px;
+        background: url("https://images03.nicepage.com/a1389d7bc73adea1e1c1fb7e/be4268f15125547f891f37c9/pexelsphoto3659861.jpeg");
+        background-size: cover;
+        display: flex;
     }
-    #home p{
+    
+    #middle{
+
+        border: 5px solid violet;
+        width: 100%;
+        height: 600px;
+        background-color: #fcc133;
+        align-items: center;
+        text-align: center;
+        padding-top: 180px;
+        font-size: 40px;
+        font-weight: 600;
+    }
+
+    #home{
+        border: 2px solid blue;
+        width: 100%;
+        height: 800px;
+        background: url("https://images03.nicepage.com/a1389d7bc73adea1e1c1fb7e/b997f5453a025796b7e011f6/pexelsphoto3659862.jpeg");
+        background-size: cover;
+    
+    }
+    #home p:nth-child(1){
         display: none;
     }
-    #home i{
-
-    color: white;
-    /* padding-top: 20px; */
-    /* padding-right: 200px; */
-    font-weight: 900;
-    display: block;
-
+  
+    #logo p:nth-child(1){
+        font-size: 30px;
+        font-weight: 900;
+        color: gray;
+        padding-left: 30px;
+        padding-top: 35px;
+        
+    }
+      
+    #logo i{
+        color: white;
+    /* text-align: right; */
+        padding-left: 300px;
+        padding-top:35px;
+        font-size: 30px;
+        font-weight: 900;
     }
 }
