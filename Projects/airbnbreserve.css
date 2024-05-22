@@ -1,0 +1,167 @@
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+} 
+
+.header{
+    /* border: 2px solid black; */
+    height: 80px;
+    padding-left: 23px;
+    padding-top: 23px;
+ 
+}
+.body{
+
+    border: 2px solid black;
+    height: 3000px;
+    width: 100%;
+    margin-top: 30px;
+}
+
+.leftpart{
+
+    border: 2px solid red;
+    height: 2800px;
+    width: 40%;
+    margin-left: 160px;
+}
+#request{
+
+    border: 2px solid black;
+    padding-left: 10px;
+    padding-top: 50px;
+    font-family: Circular, -apple-system, BlinkMacSystemFont, Roboto, Helvetica Neue, sans-serif;
+    font-size: 29px;
+    line-height: 1.43;
+    font-weight: 700;
+    color: #222;
+}
+#request i{
+/* border: 2px solid blue; */
+height:40px;
+width: 40px;    
+text-align: center;
+padding-top: 10px;
+font-weight: bold;
+border-radius: 50%;
+font-size: 20px;
+ 
+}
+#request i:hover{
+
+    cursor: pointer;
+    /* border-radius: 50%; */
+    background-color: rgb(243, 237, 237);
+}
+
+#yourtrip{
+
+    border: 2px solid black;
+    height: 200px;
+    margin-top: 20px;
+
+}
+
+#yourtrip p:nth-child(1){
+    font-size: 25px;
+    font-weight: 550;
+    padding-top: 20px;
+    font-family:  Helvetica Neue
+}
+
+#yourtrip p:nth-child(2){
+    font-size: 20px;
+    font-weight: 550;
+    padding-top: 20px;
+    font-family:  Helvetica Neue;
+
+    
+}
+
+
+#yourtrip p:nth-child(3){
+    font-size: 18px;
+    /* font-weight: 550; */
+    padding-top: 10px;
+    font-family:  Helvetica Neue;
+    opacity: 0.7;
+    
+}
+
+#yourtrip p:nth-child(4){
+    font-size: 20px;
+    font-weight: 550;
+    padding-top: 20px;
+    font-family:  Helvetica Neue;
+    
+}
+
+#yourtrip p:nth-child(5){
+    font-size: 18px;
+    /* font-weight: 550; */
+    padding-top: 10px;
+    font-family:  Helvetica Neue;
+    opacity: 0.7;
+    
+}
+
+#one{
+
+padding-left: 490px;
+}
+#two{
+
+    padding-left: 480px;
+
+}
+#paywith{
+
+    border: 2px solid yellow;
+    height: 80px;
+    display: flex;
+    /* align-items: center; */
+
+    
+}
+#paywith h3{
+    border: 2px solid black;
+    margin-top: 20px;
+    font-size: 21px;
+}
+#paywith span:nth-child(2){
+    border: 2px solid black;
+    display: flex;
+    align-items: center;
+    margin-left: 290px;
+}
+
+#form{
+
+    border: 2px solid violet;
+    height: 400px;
+}
+
+#payment{
+    border: 2px groove lightgrey;
+    width: 100%;
+    height: 55px;
+    padding-left: 10px;
+    font-size: 18px;
+    opacity: 0.8;
+    margin-top: 20px;
+    border-radius: 10px;
+}
+
+#vp{
+    border: 2px groove lightgrey;
+    width: 100%;
+    height: 55px;
+    padding-left: 10px;
+    font-size: 18px;
+    margin-top: 10px;
+    border-radius: 10px;
+    margin-bottom: 10px;
+
+}
+
