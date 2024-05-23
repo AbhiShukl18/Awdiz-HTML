@@ -13,7 +13,7 @@
 }
 .body{
 
-    border: 2px solid black;
+    /* border: 2px solid black; */
     height: 3000px;
     width: 100%;
     margin-top: 30px;
@@ -21,14 +21,14 @@
 
 .leftpart{
 
-    border: 2px solid red;
+    /* border: 2px solid red; */
     height: 2800px;
     width: 40%;
     margin-left: 160px;
 }
 #request{
 
-    border: 2px solid black;
+    /* border: 2px solid black; */
     padding-left: 10px;
     padding-top: 50px;
     font-family: Circular, -apple-system, BlinkMacSystemFont, Roboto, Helvetica Neue, sans-serif;
@@ -57,7 +57,7 @@ font-size: 20px;
 
 #yourtrip{
 
-    border: 2px solid black;
+    /* border: 2px solid black; */
     height: 200px;
     margin-top: 20px;
 
@@ -117,7 +117,7 @@ padding-left: 490px;
 }
 #paywith{
 
-    border: 2px solid yellow;
+    /* border: 2px solid yellow; */
     height: 80px;
     display: flex;
     /* align-items: center; */
@@ -125,12 +125,12 @@ padding-left: 490px;
     
 }
 #paywith h3{
-    border: 2px solid black;
+    /* border: 2px solid black; */
     margin-top: 20px;
     font-size: 21px;
 }
 #paywith span:nth-child(2){
-    border: 2px solid black;
+    /* border: 2px solid black; */
     display: flex;
     align-items: center;
     margin-left: 290px;
@@ -138,12 +138,12 @@ padding-left: 490px;
 
 #form{
 
-    border: 2px solid violet;
-    height: 400px;
+    /* border: 2px solid violet; */
+    height: 700px;
 }
 
 #payment{
-    border: 2px groove lightgrey;
+    /* border: 2px groove lightgrey; */
     width: 100%;
     height: 55px;
     padding-left: 10px;
@@ -154,7 +154,7 @@ padding-left: 490px;
 }
 
 #vp{
-    border: 2px groove lightgrey;
+    /* border: 2px groove lightgrey; */
     width: 100%;
     height: 55px;
     padding-left: 10px;
@@ -167,10 +167,136 @@ padding-left: 490px;
 
 #required{
 
-    border: 2px solid red;
+    /* border: 2px solid red; */
     height: 30px;
     margin-top: 50px;
     font-size: 20px;
     font-weight: 600;
 }
+#message, #profile, #pan, #phone{
 
+    /* border: 2px solid green; */
+    height: 70px;
+    margin-top: 30px;
+
+}
+
+#maintext{
+
+        font-size: 18px;
+        font-weight: 600;
+        line-height: 1.5;
+}
+#caption{
+    
+    font-size: 15px;
+    /* margin-top: 15px; */
+    line-height: 2.1;
+
+}
+
+#add{
+    /* border: 1px solid black; */
+    width: 55px;
+    height: 30px;
+    border-radius: 10%;
+    background-color: white;
+    font-size: 14px;
+    font-weight: bold;
+    
+}
+
+#span{
+    display: flex;
+    justify-content: space-between;
+}
+
+#add:hover{
+    cursor: pointer;
+    background-color: rgb(241, 236, 236);
+}
+
+#cancellation{
+
+    /* border: 2px solid red; */
+    height: 160px;
+    margin-top: 20px;
+}
+
+#cancellation h2{
+
+    padding-top: 20px;
+    margin-bottom: 30px;
+}
+
+#cancellation p:nth-child(2){
+    margin-bottom: 10px;
+}
+
+#free{
+
+    font-size: 16px;
+    line-height: 1.9;
+}
+#learn{
+    margin-bottom: 6px;
+    font-size: 18px;
+    font-weight: 600;
+}
+
+#rules{
+    /* border: 2px solid red; */
+    height: 160px;
+    margin-top: 20px;
+}
+#rules1{
+margin-top: 20px;
+margin-bottom: 20px;
+color: #4a3843;
+font-size: 18px;
+
+}
+
+#rules2{
+
+color: #4a3843;
+font-size: 18px;
+}
+
+#refund{
+    /* border: 2px solid green; */
+    margin-top: 30px;
+    height: 100px;
+    /* padding-left: 50px; */
+}
+
+#capt{
+
+    padding-left: 50px;
+    font-size: 17px;
+    line-height: 1.3;
+}
+
+#lastpart{
+
+    /* border: 2px solid red; */
+    height: 60px;
+    margin-top: 40px;
+    font-size: 14px;
+}
+
+#submit{
+
+        border: 2px solid white;
+        background-color: #e51d50;
+        color: white;
+        width: 180px;
+        height: 50px;
+        font-size: 18px;
+        border-radius: 10px;
+        margin-top: 20px;
+}
+#submit:hover{
+
+    cursor: pointer;
+}
