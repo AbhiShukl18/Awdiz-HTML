@@ -165,3 +165,12 @@ padding-left: 490px;
 
 }
 
+#required{
+
+    border: 2px solid red;
+    height: 30px;
+    margin-top: 50px;
+    font-size: 20px;
+    font-weight: 600;
+}
+
