@@ -8,7 +8,7 @@
 .firstnav{
     height: 80px;
     width: 100%;
-    border: 2px solid black;
+    /* border: 2px solid black; */
     /* position: sticky;
     top: 0;
     left: 0; */
@@ -46,7 +46,7 @@
 }
 
 #fourthpart{
-    border: 2px none black;
+    /* border: 2px none black; */
     outline: 2px ridge lightgray;
     width: 90px;
     height: 50px;
@@ -65,15 +65,15 @@
 }
 .body{
 
-    border: 2px solid black;
+    /* border: 2px solid black; */
     height: 700px;
     width: 100%;
     display: flex;
 }
 .leftpart{
-    border: 2px solid red;
+    /* border: 2px solid red; */
     height: 600px;
-    width: 60%;
+    width: 65%;
 }
 
 
@@ -115,9 +115,12 @@
 }
 .rightpart{
 
-    border: 2px solid green;
+    /* border: 2px solid green; */
     height: 600px;
-    width: 40%;
+    width: 35%;
+    position: sticky;
+    top: 0px;
+    left: 0px;
 
 }
 #secondnav i{
@@ -162,4 +165,78 @@
 
 #buttons button:hover{
     border:1px solid black
+}
+
+.body1{
+
+    /* border: 2px solid violet; */
+    height: 600px;
+    width: 100%;
+    display: flex;
+    justify-content: space-evenly;
+}
+
+#imgbody{
+
+    /* border: 2px solid blue; */
+    width: 30%;
+    height: 440px;
+    margin-top: 10px;
+}
+
+#img{
+
+            width: 100%;
+            height: 270px;
+            border-radius: 15px;
+            background-size: cover;
+            background-image: url(https://a0.muscache.com/im/pictures/miso/Hosting-52086975/original/017465f1-e5b3-43ff-8d92-facd828f8fc2.jpeg?im_w=720);
+            background-size: cover;
+}
+
+#heart{
+    padding-top: 20px;
+    padding-left: 240px;
+    font-size: 18px;
+    align-items: right;
+}
+
+#img1{
+    width: 100%;
+    height: 270px;
+    border-radius: 15px;
+    background-size: cover;
+    background-size: cover;
+    background-image: url(https://a0.muscache.com/im/pictures/miso/Hosting-752799920766464111/original/51a89bd6-fedc-46d0-8c61-87d448a37842.jpeg?im_w=720);
+
+}
+
+#img2{
+    width: 100%;
+    height: 270px;
+    border-radius: 15px;
+    background-image: url(https://a0.muscache.com/im/pictures/miso/Hosting-949659370756982719/original/d86b80d5-b6da-4481-9cdc-5d21edff5542.jpeg?im_w=720);
+    background-size: cover;
+
+
+}
+
+#box1{
+    height: 48px;
+    margin-top: 20px;
+    border: 2px none black;
+    border-radius: 50px;
+    background-color: #f7f7f7;
+    padding-left: 20px;
+    padding-top: 14px;
+    color: #6f6f6f;
+    font-size: 16px;
+    font-weight: bold;
+}
+
+#box1 p:hover{
+    cursor: pointer;
+    color: black;
+
+
 }
