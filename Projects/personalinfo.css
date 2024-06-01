@@ -317,3 +317,64 @@ font-size: 12px;
         width: 15%;
         height: 50px;
 } */
+
+
+@media (max-width:600px){
+    .header{
+        display: none;
+
+    }
+    
+    
+    #rightpart{
+        display: none;
+    }
+
+    .body{
+        height: 800px;
+    }
+
+    .leftpart{
+
+        /* border: 2px solid red; */
+        height: 750px;
+        width: 100%;
+        align-items: center;
+        /* margin: auto; */
+        margin-left: 10px;
+    }
+    .footer1{
+        display: none;
+    }
+    .footer{
+        display: none;
+    }
+
+    #L1{
+        margin-right: 10px;
+    }
+
+    #Pname{
+        margin-right: 10px;
+    }
+
+    #Email{
+        margin-right: 10px;
+    }
+
+    #PNumber{
+        margin-right: 10px;
+    }
+
+    #GID{
+        margin-right: 10px;
+    }
+
+    #Add{
+        margin-right: 10px;
+    }
+
+    #Emergency{
+        margin-right: 10px;
+    }
+}
