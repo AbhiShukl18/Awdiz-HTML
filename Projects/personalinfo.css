@@ -1,0 +1,312 @@
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+} 
+
+.header{
+    /* border: 2px solid black; */
+    height: 80px;
+    padding-left: 23px;
+    padding-top: 23px;
+ 
+}
+.body{
+
+    /* border: 2px solid black; */
+    height: 1000px;
+    width: 100%;
+    margin-top: 30px;
+    display: flex;
+}
+
+.leftpart{
+
+    /* border: 2px solid red; */
+    height: 900px;
+    width: 40%;
+    margin-left: 160px;
+}
+#request{
+
+    /* border: 2px solid black; */
+    padding-left: 10px;
+    padding-top: 50px;
+    font-family: Circular, -apple-system, BlinkMacSystemFont, Roboto, Helvetica Neue, sans-serif;
+    font-size: 15px;
+    line-height: 1.43;
+    font-weight: 700;
+    color: #222;
+}
+#request i{
+/* border: 2px solid blue; */
+height:40px;
+width: 40px;    
+text-align: center;
+padding-top: 10px;
+font-weight: bold;
+border-radius: 50%;
+font-size: 12px;
+ 
+}
+#request i:hover{
+
+    cursor: pointer;
+    /* border-radius: 50%; */
+    background-color: rgb(243, 237, 237);
+}
+
+#request span{
+    color: #484848 !important;
+}
+
+#request h2{
+    font-family: Circular, -apple-system, BlinkMacSystemFont, Roboto, Helvetica Neue, sans-serif !important;
+    font-size: 2rem !important;
+    font-weight: 800 !important;
+    line-height: 1.125em !important;
+    color: #484848 !important;
+}
+
+#legalname{
+    width: 100%;
+    /* border: 2px solid black; */
+    height: 80px;
+    margin-top: 60px;
+
+}
+
+#L1{
+    line-height: 25px;
+    display: flex;
+    justify-content: space-between;
+    font-family:  'Circular', -apple-system, 'BlinkMacSystemFont', 'Roboto', 'Helvetica Neue', sans-serif;
+}
+
+#L1 a{
+    color: black;
+    font-family:  'Circular', -apple-system, 'BlinkMacSystemFont', 'Roboto', 'Helvetica Neue', sans-serif;
+    
+}
+
+
+#Preffname{
+    width: 100%;
+    /* border: 2px solid black; */
+    height: 80px;
+}
+
+#Pname{
+    line-height: 25px;
+    display: flex;
+    justify-content: space-between;
+    font-family:  'Circular', -apple-system, 'BlinkMacSystemFont', 'Roboto', 'Helvetica Neue', sans-serif;
+}
+
+#Pname a{
+    color: black;
+    font-family:  'Circular', -apple-system, 'BlinkMacSystemFont', 'Roboto', 'Helvetica Neue', sans-serif;
+}
+
+#EmailAdd{
+    width: 100%;
+    /* border: 2px solid black; */
+    height: 80px;
+}
+
+#Email{
+    line-height: 25px;
+    display: flex;
+    justify-content: space-between;
+    font-family:  'Circular', -apple-system, 'BlinkMacSystemFont', 'Roboto', 'Helvetica Neue', sans-serif;
+}
+
+#Email a{
+    color: black;
+    font-family:  'Circular', -apple-system, 'BlinkMacSystemFont', 'Roboto', 'Helvetica Neue', sans-serif;
+}
+
+#PhoneNumber{
+    width: 100%;
+    /* border: 2px solid black; */
+    height: 80px;
+}
+
+#PNumber{
+    line-height: 25px;
+    display: flex;
+    justify-content: space-between;
+    font-family:  'Circular', -apple-system, 'BlinkMacSystemFont', 'Roboto', 'Helvetica Neue', sans-serif;
+}
+
+#PNumber a{
+    color: black;
+    font-family:  'Circular', -apple-system, 'BlinkMacSystemFont', 'Roboto', 'Helvetica Neue', sans-serif;
+}
+
+#GovernmentId{
+    width: 100%;
+    /* border: 2px solid black; */
+    height: 80px;
+}
+
+#GID{
+    line-height: 25px;
+    display: flex;
+    justify-content: space-between;
+    font-family:  'Circular', -apple-system, 'BlinkMacSystemFont', 'Roboto', 'Helvetica Neue', sans-serif;
+}
+
+#GID a{
+    color: black;
+    font-family:  'Circular', -apple-system, 'BlinkMacSystemFont', 'Roboto', 'Helvetica Neue', sans-serif;
+}
+
+#Address{
+    width: 100%;
+    /* border: 2px solid black; */
+    height: 80px;
+}
+
+#Add{
+    line-height: 25px;
+    display: flex;
+    justify-content: space-between;
+    font-family:  'Circular', -apple-system, 'BlinkMacSystemFont', 'Roboto', 'Helvetica Neue', sans-serif;
+}
+
+#Add a{
+    color: black;
+    font-family:  'Circular', -apple-system, 'BlinkMacSystemFont', 'Roboto', 'Helvetica Neue', sans-serif;
+}
+
+#EmergencyContact{
+    width: 100%;
+    /* border: 2px solid black; */
+    height: 80px;
+}
+
+#Emergency{
+    line-height: 25px;
+    display: flex;
+    justify-content: space-between;
+    font-family:  'Circular', -apple-system, 'BlinkMacSystemFont', 'Roboto', 'Helvetica Neue', sans-serif;
+}
+
+#Emergency a{
+    color: black;
+    font-family:  'Circular', -apple-system, 'BlinkMacSystemFont', 'Roboto', 'Helvetica Neue', sans-serif;
+}
+
+#rightpart{
+    
+    /* border: 2px solid black; */
+    width: 40%;
+    margin-left: 40px;
+    height: 900px;
+
+}
+
+#box{
+    border: 2px solid lightgrey;
+    border-radius: 20px;
+    width: 320px;
+    height: 700px;
+    margin-top: 150px;
+    margin-left: 150px;
+    /* display: flex;
+    flex-direction: column; */
+    /* justify-content: space-evenly; */
+    
+}
+
+#box1{
+
+    /* border: 2px solid blue; */
+    width: 280px;
+    height: 170px;
+    margin-left: 20px;
+    margin-top: 60px;
+}
+
+#box1 p{
+
+    margin-top: 20px;
+    font-size: 16px;
+}
+#box1 hr{
+
+    margin-top: 40px;
+}
+
+.footer{
+
+    /* border: 2px solid blue; */
+    width: 100%;
+    height: 423px;
+    display: flex;
+    flex-direction: column;
+    justify-content: space-between;
+    background-color: #f7f7f7;
+
+}
+.footer2{
+    /* border: 2px solid black; */
+    width: 100%;
+    height: 70px;
+    background-color: #f7f7f7;
+    display: flex;
+    justify-content: space-between;
+}
+
+#first{
+    /* border: 2px solid red; */
+    width: 600px;
+    padding-left: 50px;
+    display: flex;
+    justify-content: space-between;
+    padding-left: 50px;
+    /* margin-top: 25px; */
+    font-size: 16px;
+    align-items: center;
+}
+
+#second{
+    /* border: 2px solid red; */
+    width: 320px;
+    height: 50px;
+    margin-right: 100px;
+    display: flex;
+    padding-left: 50px;
+    margin-top: 25px;
+    display: flex;
+    align-items: center;
+    justify-content: space-around;
+    font-size: 16px;
+}
+
+#footer1{
+
+    /* border: 2px solid red; */
+    width: 90%;
+    height: 300px;
+    margin: auto;
+    display: flex;
+    justify-content: space-around;
+}
+
+#support{
+    margin-top: 20px;
+    line-height: 1.9;
+}
+
+#hosting{
+    margin-top: 20px;
+    line-height: 1.9;
+}
+
+#airnbnb{
+    margin-top: 20px;
+    line-height: 1.9;
+
+}
